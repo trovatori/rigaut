@@ -9,13 +9,13 @@
 <body>
     <header>
         <h1>Atressi com lo leos</h1>
-        <p>Analisi linguistica e glossario dei versi di Rigaut de Berbezilh</p>
+        <p>Analisi linguistica e glossario della I stanza</p>
     </header>
 
     <main>
         <section class="intro">
             <h2>Introduzione</h2>
-            <p>Questo repository ospita il glossario terminologico basato sulla celebre similitudine del leone tratta dalle liriche del trovatore occitano.</p>
+            <p>Questo repository ospita il glossario di un testo che contiene una similitudine animale tratta dalle liriche del trovatore occitano.</p>
             <a href="rigaut.html" class="btn">Vai al Glossario Online</a>
         </section>
     </main>
