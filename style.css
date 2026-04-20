@@ -1,0 +1,65 @@
+/* Stili Generali */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 30px;
+}
+
+h1 { color: #2c3e50; }
+
+/* Pulsante e Link */
+.btn {
+    display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #2980b9;
+}
+
+/* Stile per la Tabella (che userai in rigaut.html) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    th, td { padding: 8px; font-size: 0.85em; }
+}
